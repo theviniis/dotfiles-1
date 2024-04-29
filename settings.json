@@ -1,87 +1,120 @@
 {
-    "[python]": {
-        "editor.bracketPairColorization.enabled": false,
-        "editor.guides.bracketPairs": false,
-        "editor.tabSize": 4
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
     },
+    "explorer.compactFolders": false,
+    "editor.formatOnSave": true,
     "editor.bracketPairColorization.enabled": true,
-    "editor.detectIndentation": false,
-    "editor.fontSize": 14,
+    "editor.fontSize": 16,
     "editor.guides.bracketPairs": true,
-    "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.renderControlCharacters": true,
-    "editor.rulers": [
-        80,
-        120
-    ],
     "editor.showFoldingControls": "always",
     "editor.snippetSuggestions": "top",
     "editor.tabSize": 2,
+    "editor.linkedEditing": true,
+    "javascript.format.semicolons": "insert",
+    // Prettier stuff
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "es5",
+    "prettier.semi": false,
+    "prettier.tabWidth": 2,
+    "prettier.bracketSameLine": true,
     "emmet.includeLanguages": {
-        "erb": "html"
+      "erb": "html"
     },
     "emmet.showSuggestionsAsSnippets": true,
     "emmet.triggerExpansionOnTab": true,
     "explorer.confirmDelete": false,
-    "files.exclude": {
-        "__pycache__": true,
-        "_site": true,
-        ".asset-cache": true,
-        ".bundle": true,
-        ".ipynb_checkpoints": true,
-        ".pytest_cache": true,
-        ".sass-cache": true,
-        ".svn": true,
-        "**/.DS_Store": true,
-        "**/.egg-info": true,
-        "**/.git": true,
-        "build": true,
-        "coverage": true,
-        "dist": true,
-        "log": true,
-        "node_modules": true,
-        "public/packs": true,
-        "tmp": true
-    },
     "files.hotExit": "off",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "files.watcherExclude": {
-        "**/audits/**": true,
-        "**/coverage/**": true,
-        "**/log/**": true,
-        "**/node_modules/**": true,
-        "**/tmp/**": true,
-        "**/vendor/**": true
+      "**/audits/**": true,
+      "**/coverage/**": true,
+      "**/log/**": true,
+      "**/node_modules/**": true,
+      "**/tmp/**": true,
+      "**/vendor/**": true
     },
-    "git.enabled": false,
     "notebook.diff.ignoreMetadata": true,
     "notebook.lineNumbers": "on",
     "notebook.markup.fontSize": 13,
-    "python.defaultInterpreterPath": "~/.pyenv/shims/python",
-    "python.formatting.provider": "yapf",
-    "python.languageServer": "Pylance",
-    "python.linting.enabled": false,
-    "python.linting.flake8Enabled": false,
-    "python.linting.pylintEnabled": false,
-    "python.terminal.activateEnvironment": false,
-    "ruby.lint": {
-        "rubocop": true
-    },
-    "search.exclude": {
-      // Inherits all glob patterns from the `files.exclude` setting.
-      "**/.venv": true
-    },
     "telemetry.telemetryLevel": "off",
     "window.restoreWindows": "none",
     "window.newWindowDimensions": "maximized",
     "workbench.editor.enablePreview": true,
-    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.panel.defaultLocation": "right",
-}
+    "workbench.colorTheme": "Illusion Refined",
+    "workbench.panel.defaultLocation": "left",
+    "workbench.sideBar.location": "right",
+    "workbench.panel.opensMaximized": "never",
+    "terminal.integrated.env.linux": {},
+    "terminal.integrated.env.windows": {},
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "cSpell.ignoreWords": ["Isloading", "Roboto"],
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "errorLens.excludeBySource": [
+      "eslint(react-hooks/exhaustive-deps)",
+      "ts(2304)",
+      "eslint(@typescript-eslint/unbound-method)",
+      "eslint(@typescript-eslint/no-empty-function)",
+      "eslint(prettier/prettier)"
+    ],
+    "git.enableSmartCommit": true,
+    "cSpell.userWords": [
+      "autodocs",
+      "balão",
+      "clsx",
+      "commitlint",
+      "Dont",
+      "estoa",
+      "Estoa",
+      "homeworld",
+      "hookform",
+      "infoprice",
+      "lucide",
+      "luke",
+      "mongose",
+      "nextjs",
+      "noderest",
+      "signin",
+      "skywalker",
+      "starships",
+      "Starwars",
+      "swapi",
+      "SWAPI",
+      "tailwindcss",
+      "testid",
+      "theviniis",
+      "typesystem",
+      "unoptimized",
+      "USUARIO",
+      "vmin",
+      "xxxs",
+      "zustand"
+    ],
+    "gitlens.advanced.messages": {
+      "suppressGitDisabledWarning": true,
+      "suppressGitMissingWarning": true
+    },
+    "cSpell.language": "en,pt,pt-BR",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "gitlens.views.branches.branches.layout": "list",
+    "tailwindCSS.experimental.classRegex": [
+      ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+    ],
+    "[scss]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.ignoreRebaseWarning": true
+  }
